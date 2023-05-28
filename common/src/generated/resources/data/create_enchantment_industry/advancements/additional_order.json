@@ -1,0 +1,31 @@
+{
+  "parent": "create_enchantment_industry:first_order",
+  "criteria": {
+    "builtin": {
+      "conditions": {},
+      "trigger": "create_enchantment_industry:builtin/additional_order"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.additional_order.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:golden_helmet",
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:5s}]}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.create_enchantment_industry.additional_order"
+    }
+  },
+  "requirements": [
+    [
+      "builtin"
+    ]
+  ]
+}

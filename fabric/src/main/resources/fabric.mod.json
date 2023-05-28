@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "create_enchantment_industry",
+  "version": "${version}",
+  "name": "Create Enchantment Industry",
+  "description": "Automatic Enchanting, with Create.",
+  "authors": [
+    "MarbleGateKeeper", "LimonBlaze", "IThundxr"
+  ],
+  "contact": {
+    "sources": "https://github.com/DragonsPlusMinecraft/CreateEnchantmentIndustry"
+  },
+  "license": "MIT",
+  "icon": "assets/create_enchantment_industry/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.examplemod.fabric.ExampleModFabric"
+    ]
+  },
+  "mixins": [
+    "create_enchantment_industry.mixins.json",
+    "create_enchantment_industry-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}"
+  }
+}

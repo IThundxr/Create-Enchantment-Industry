@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "priority": 1100,
+  "minVersion": "0.8",
+  "package": "plus.dragons.createenchantmentindustry.foundation.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BasinBlockMixin",
+    "DeployerFakePlayerMixin",
+    "FillingBySpoutMixin",
+    "FluidTankBlockMixin",
+    "ItemDrainBlockMixin",
+    "ItemDrainTileEntityAccessor",
+    "OpenEndedPipeInvoker",
+    "OpenEndFluidHandlerMixin",
+    "SpoutBlockMixin",
+    "SpoutTileEntityAccessor",
+    "TankSegmentAccessor"
+  ],
+  "client": [
+    "CameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

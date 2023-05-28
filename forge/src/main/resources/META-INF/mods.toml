@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[${forge_version},)"
+issueTrackerURL = "https://github.com/DragonsPlusMinecraft/CreateEnchantmentIndustry/issues"
+license = "MIT"
+
+[[mods]]
+modId = "create_enchantment_industry"
+version = "${version}"
+displayName = "Create Enchantment Industry"
+authors = "MarbleGateKeeper, LimonBlaze, IThundxr"
+description = '''
+Automatic Enchanting, with Create.
+'''
+logoFile = "icon.png"
+
+[[dependencies.create_enchantment_industry]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_enchantment_industry]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_enchantment_industry]]
+modId="create"
+mandatory=true
+versionRange="${create_version}"
+ordering="NONE"
+side="BOTH"
